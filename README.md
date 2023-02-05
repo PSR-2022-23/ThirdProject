@@ -18,4 +18,4 @@ git clone https://github.com/aws-robotics/aws-robomaker-hospital-world
 
 ## Running
 
-To run the simulation simply add the runit.sh file to your workspace (~/catkin_ws i.e) and run it using 0 to run the robot and with 1 for the world
+To run the simulation simply add the runit.sh file to your workspace (~/catkin_ws i.e) and run it 
