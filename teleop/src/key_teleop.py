@@ -56,8 +56,8 @@ Moving around:
         w
    a    s    d
         x
-w/x : increase/decrease linear velocity (Burger : ~ 0.22, Waffle and Waffle Pi : ~ 0.26)
-a/d : increase/decrease angular velocity (Burger : ~ 2.84, Waffle and Waffle Pi : ~ 1.82)
+w/x : increase/decrease linear velocity ( Max vel : ~ 0.64)
+a/d : increase/decrease angular velocity ( Max vel : ~ 1.90)
 space key, s : force stop
 CTRL-C to quit
 """
