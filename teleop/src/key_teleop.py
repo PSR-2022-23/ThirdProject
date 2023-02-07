@@ -40,14 +40,14 @@ if os.name == 'nt':
 else:
   import tty, termios
 
-LIN_VEL_INCREMENT = 0.032
-ANG_VEL_INCREMENT = 0.032
+LIN_VEL_INCREMENT = 0.05
+ANG_VEL_INCREMENT = 0.05
 
-WAFFLE_MAX_LIN_VEL = 0.64
-WAFFLE_MAX_ANG_VEL = 1.90
+WAFFLE_MAX_LIN_VEL = 0.90
+WAFFLE_MAX_ANG_VEL = 2.00
 
-LIN_VEL_STEP_SIZE = 0.064
-ANG_VEL_STEP_SIZE = 0.064
+LIN_VEL_STEP_SIZE = 0.025
+ANG_VEL_STEP_SIZE = 0.025
 
 msg = """
 Control Your TurtleBot3!
@@ -56,8 +56,8 @@ Moving around:
         w
    a    s    d
         x
-w/x : increase/decrease linear velocity ( Max vel : ~ 0.64)
-a/d : increase/decrease angular velocity ( Max vel : ~ 1.90)
+w/x : increase/decrease linear velocity ( Max vel : ~ 0.90)
+a/d : increase/decrease angular velocity ( Max vel : ~ 2.00)
 space key, s : force stop
 CTRL-C to quit
 """
